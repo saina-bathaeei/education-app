@@ -1,0 +1,8 @@
+.active{
+    border-color: #2bce56 !important;
+    outline: none;
+}
+.notactive{
+    border-color: red !important;
+    outline: none;
+}

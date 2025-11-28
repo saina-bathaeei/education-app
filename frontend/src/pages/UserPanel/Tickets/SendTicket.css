@@ -1,0 +1,157 @@
+
+/* ============================== Content Main Style ============================== */
+.ticket {
+    border-right: 2px solid #FFF;
+    padding-right: 3rem;
+}
+.ticket-header {
+    border-bottom: 2px solid #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.ticket-header__title {
+    display: block;
+    font-size: 1.4rem;
+    color: var(--dark-color);
+    font-weight: bold;
+}
+.ticket-header__link {
+    display: block;
+    margin: 2.5rem 0 1rem 0;
+    background-color: #FFF;
+    color: var(--white-color);
+    font-size: 1.3rem;
+    border-radius: 3px;
+    text-align: center;
+    padding: 0.3rem 1rem;
+    max-width: 12rem;
+}
+.ticket-header__link:hover {
+    background-color: #2eb351;
+    color: var(--white-color);
+}
+.ticket-form {
+    margin: 2rem 0;
+}
+.ticket-form__label {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.ticket-form__select,.ticket-form__input,.ticket-form__textarea {
+    width: 100%;
+    box-shadow: 0px 0px 6px 1px rgba(43, 206, 86, 0.5);
+    border-radius: 3px;
+    border: none;
+    margin: 1rem 0 1rem 1.5rem;
+    padding: 0.4rem 0.5rem 0.4rem 1rem;
+    font-size: 1.4rem;
+    background: var(--white-color);
+}
+.ticket-form__option {
+    font-size: 1.4rem;
+}
+.ticket-form__textarea {
+    height: 30rem;
+}
+.ticket-form__file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed #00BFD6;
+    background-color: rgba(0, 228, 253, 0.05);
+    padding: 1.5rem 0;
+}
+.ticket-form__file-max {
+    font-size: 1.3rem;
+}
+.ticket-form__file-format {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+.ticket-form__file-input {
+}
+.ticket-form__btn {
+    border: none;
+    border-radius: 3px;
+    background-color: #FFF;
+    color: var(--white-color);
+    margin: 1.5rem 0;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    transition: all 400ms ease;
+}
+.ticket-form__btn:hover {
+    background-color: #3cbb5e;
+}
+.ticket-form__btn-icon {
+    font-size: 1.5rem;
+}
+/* ============================== Content Main Style ============================== */
+
+.ticket-form .row{
+    display: grid;
+  grid-template-columns: 510px 510px;
+  gap: 0 15px;
+}
+.all-tickets-container{
+    display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  margin-top: 30px;
+  gap: 0 17px;
+}
+.ticket-val-box{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 17px;
+  box-shadow: 0px 0px 6px 1px rgba(43, 206, 86, 0.5);
+  border-radius: 5px;
+}
+.ticket-val-box span{
+    color: gray;
+}
+.user-ticket-container{
+    margin-top: 50px;
+}
+.ticket-user-box{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px;
+  box-shadow: 0px 0px 6px 1px rgba(43, 206, 86, 0.5);
+  border-radius: 5px;
+}
+.user-ticket-title-dep{
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.user-ticket-dep{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2bce56;
+  padding: 10px 59px;
+  border-radius: 5px;
+  color: white;
+}
+.ticket-user-info{
+    display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.ticket-user-info button{
+    border: none;
+  padding: 11px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #1b44da;
+}
+.ticket-user-info span{
+    color: grey;
+}
+.user-ticket-container h1{
+    margin: 50px 0;
+}

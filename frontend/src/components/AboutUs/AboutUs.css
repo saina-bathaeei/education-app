@@ -1,0 +1,19 @@
+.about-us {
+  margin: 6rem 0;
+}
+.about-us .container{
+  max-width: 1300px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+.about-us .container .row{
+  display: grid;
+  grid-template-columns: 430px 430px 430px;
+  gap: 20px 15px;
+  margin-top: 50px;
+}
+.row-about{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}

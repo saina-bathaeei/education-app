@@ -1,0 +1,25 @@
+.courses {
+  margin: 4rem 0;
+}
+.courses .container{
+  max-width: 1200px;
+  margin: auto;
+}
+/*.courses-content{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}*/
+.courses-content .container .row{
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  gap: 0 15px;
+  width: 100%;
+}
+*{
+  font-family: 'Kalameh';
+}
+.title-every-section{
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}

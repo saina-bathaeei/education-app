@@ -1,0 +1,22 @@
+@font-face {
+  font-family: tanha;
+  src: url('/Tanha.ttf');
+}
+
+*{
+  font-family: tanha !important;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .landing h1{
+    font-size: 40px !important;
+  }
+  p{
+    width: 80% !important;
+  }
+  .landing span{
+    width: 80% !important;
+  }
+  .bot-camp h1{
+    font-size: 40px !important; 
+  }
+}

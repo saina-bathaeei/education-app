@@ -1,0 +1,38 @@
+.input-container-add{
+    display: grid;
+  grid-template-columns: auto auto;
+  gap: 0 20px;
+}
+.input-add{
+    display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+.input-add input{
+    width: 500px;
+    padding: 5px 10px 5px 0;
+  border: solid #d2d2d2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.add-new-user{
+    background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px 15px;
+}
+.add-user-btn{
+    background-color: #1943da;
+  color: white;
+  padding: 10px 23px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.add-new-user h1{
+    margin-bottom: 20px;
+    color: #1b44da;
+}
