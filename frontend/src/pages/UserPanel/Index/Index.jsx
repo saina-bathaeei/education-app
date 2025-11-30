@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import AuthContext from "../../../authContext";
-import IndexBox from "../../../Components/UserPanel/IndexBox/IndexBox";
+import IndexBox from "../../../components/UserPanel/IndexBox/IndexBox";
 
 export default function IndexMainPage() {
   const authContext = useContext(AuthContext);
