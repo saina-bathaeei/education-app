@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./Breadcrumb.css";
 
-export default function Breadcrumb({ links }) {
+export default function Breadcrumb(props) {
   return (
     <section className="breadcrumb">
       <div className="container">
@@ -12,12 +12,12 @@ export default function Breadcrumb({ links }) {
             <img style={{width:'50px'}} src="/images/icons/material-symbols-light--home-rounded.svg"/>
           </div>
           <ul className="breadcrumb__list">
-            {links.map((link) => (
+            {props.links.map((link) => (
               <li className="breadcrumb__item">
                 <Link to={`/${link.to}`} className="breadcrumb__link">
                   {link.title}
                   {
-                      link.id !== links.length ? (
+                      link.id !== props.links.length ? (
                           <img style={{width:'30px'}} src="/images/icons/icon-park-outline--left.svg"/>
                       ) : null
                   }
