@@ -7,19 +7,19 @@ import Register from "./pages/Register/Register"
 import Login from "./pages/Login/Login"
 import Articles from "./pages/Articles/Articles"
 import Contact from "./pages/Contact/Contact"
-import AdminPanel from "./pages/AdminPanel"
-import Users from "./pages/AdminPanel/Users/Users"
-import CoursesAdmin from "./pages/AdminPanel/Courses/Courses"
-import CategoryAdmin from "./pages/AdminPanel/category/CategoryAdmin"
-import ContactsAdmin from "./pages/AdminPanel/contacts/ContactsAdmin"
-import ArticlesAdmin from "./pages/AdminPanel/Articles/ArticlesAdmin"
-import Sessions from "./pages/AdminPanel/sessions/Sessions"
-import Menus from "./pages/AdminPanel/Menus/Menus"
-import SubMenus from "./pages/AdminPanel/Menus/SubMenus"
-import Comments from "./pages/AdminPanel/Comments/Comments"
-import Discount from "./pages/AdminPanel/Discount/Discount"
-import MainPage from "./pages/AdminPanel/MainPage/MainPage"
-import Draft from "./pages/AdminPanel/Draft/Draft"
+//import AdminPanel from "./pages/AdminPanel"
+//import Users from "./pages/AdminPanel/Users/Users"
+//import CoursesAdmin from "./pages/AdminPanel/Courses/Courses"
+//import CategoryAdmin from "./pages/AdminPanel/category/CategoryAdmin"
+//import ContactsAdmin from "./pages/AdminPanel/contacts/ContactsAdmin"
+//import ArticlesAdmin from "./pages/AdminPanel/Articles/ArticlesAdmin"
+//import Sessions from "./pages/AdminPanel/sessions/Sessions"
+//import Menus from "./pages/AdminPanel/Menus/Menus"
+//import SubMenus from "./pages/AdminPanel/Menus/SubMenus"
+//import Comments from "./pages/AdminPanel/Comments/Comments"
+//import Discount from "./pages/AdminPanel/Discount/Discount"
+//import MainPage from "./pages/AdminPanel/MainPage/MainPage"
+//import Draft from "./pages/AdminPanel/Draft/Draft"
 import IndexUser from "./pages/UserPanel/Index"
 import IndexMainPage from "./pages/UserPanel/Index/Index"
 import Orders from "./pages/UserPanel/Orders/Orders"
@@ -39,7 +39,7 @@ const routes = [
     { path: '/login', element: <Login /> },
     { path: '/articles', element: <Articles /> },
     { path: '/contact', element: <Contact /> },
-    { path: '/admin', element: <AdminPanel />,
+    /*{ path: '/admin', element: <AdminPanel />,
         children:[
             {path:'/admin', element:<MainPage/>},
             {path:'users',element:<Users/>},
@@ -54,7 +54,7 @@ const routes = [
             {path:'offs',element:<Discount/>},
             {path:'articles/draft/:shortName',element:<Draft/>},
         ]
-     },
+     },*/
      { path: '/user-p', element: <IndexUser/>,
         children:[
             {path:'/user-p', element:<IndexMainPage/>},
