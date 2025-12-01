@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import "./CourseInfo.css";
 import BreadCrumbUser from "../../components/Breadcrumb/Breadcrumb";
 import CommentBox from "../../components/commentBox/CommentBox";
-import CourseDetailBox from "../../Components/CourseDetailBox/CourseDetailBox";
+import CourseDedBox from "../../components/CourseDetailBox/CourseDetailBox";
 import CommentsTextArea from "../../components/CommentsTextArea/CommentsTextArea";
 import According from "../../components/according/According";
 import { useParams,Link } from "react-router-dom";
@@ -179,32 +179,32 @@ export default function CourseInfo() {
               <div className="course">
                 <div className="course-boxes">
                   <div className="row ">
-                    <CourseDetailBox
+                    <CourseDedBox
                       icon="graduation-cap"
                       title="وضعیت دوره:"
                       text="به اتمام رسیده"
                     />
-                    <CourseDetailBox
+                    <CourseDedBox
                       icon="clock"
                       title=" مدت زمان دوره:"
                       text="19 ساعت"
                     />
-                    <CourseDetailBox
+                    <CourseDedBox
                       icon="calendar-alt"
                       title="آخرین بروزرسانی:"
                       text="1401/03/02"
                     />
-                    <CourseDetailBox
+                    <CourseDedBox
                       icon="graduation-cap"
                       title="وضعیت دوره:"
                       text="به اتمام رسیده"
                     />
-                    <CourseDetailBox
+                    <CourseDedBox
                       icon="clock"
                       title=" مدت زمان دوره:"
                       text="19 ساعت"
                     />
-                    <CourseDetailBox
+                    <CourseDedBox
                       icon="calendar-alt"
                       title="آخرین بروزرسانی:"
                       text="1401/03/02"
