@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Articles.css'
 import Header from '../../components/header/Header'
-//import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb"
+import BreadCrumbUser from '../../components/Breadcrumb/Breadcrumb'
 import Footer from '../../components/Footer/Footer'
 import ArticleBox from '../../components/ArticleBox/ArticleBox'
 
@@ -19,7 +19,7 @@ export default function Articles() {
   return (
     <>
         <Header/>
-        {/*<Breadcrumb
+        <BreadCrumbUser
             links={[
             { id: 1, title: "خانه", to: "" },
             {
@@ -29,7 +29,7 @@ export default function Articles() {
             },
             
             ]}
-        />*/}
+        />
 
         <div className="courses-content">
             <div className="container">

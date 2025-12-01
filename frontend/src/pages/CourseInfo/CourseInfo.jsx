@@ -3,7 +3,7 @@ import Header from '../../components/header/Header'
 import Footer from "../../components/Footer/Footer";
 
 import "./CourseInfo.css";
-//import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
+import BreadCrumbUser from "../../components/Breadcrumb/Breadcrumb";
 import CommentBox from "../../components/commentBox/CommentBox";
 import CourseDetailBox from "../../Components/CourseDetailBox/CourseDetailBox";
 import CommentsTextArea from "../../components/CommentsTextArea/CommentsTextArea";
@@ -110,7 +110,7 @@ export default function CourseInfo() {
     <>
       <Header/>
 
-      {/*<Breadcrumb
+      <BreadCrumbUser
         links={[
           { id: 1, title: "خانه", to: "" },
           {
@@ -124,7 +124,7 @@ export default function CourseInfo() {
             to: "course-info/js-expert",
           },
         ]}
-      />*/}
+      />
 
       <section className="course-info">
         <div className="container">

@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Header from '../../components/header/Header'
 import Footer from "../../components/Footer/Footer";
-//import Breadrumb from "../../components/Breadcrumb/Breadcrumb";
+import BreadCrumbUser from "../../components/Breadcrumb/Breadcrumb";
 import { useParams } from "react-router-dom";
-
-
-//../../Components/Breadcrumb/Breadcrumb
 
 
 import "./ArticleInfo.css";
@@ -27,7 +24,7 @@ export default function ArticleInfo() {
     <>
       <Header/>
 
-      {/*<Breadcrumb
+      <BreadCrumbUser
         links={[
           { id: 1, title: "خانه", to: "" },
           {
@@ -41,7 +38,7 @@ export default function ArticleInfo() {
             to: "course-info/js-expert",
           },
         ]}
-      />*/}
+      />
 
       <main className="main">
         <div className="container">

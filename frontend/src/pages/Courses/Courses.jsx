@@ -1,7 +1,7 @@
 import React,{ useEffect,useState } from 'react'
 import Header from '../../components/header/Header'
 import Footer from '../../components/Footer/Footer'
-//import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb"
+import BreadCrumbUser from '../../components/Breadcrumb/Breadcrumb'
 import Pagination from '../../components/Pagination/Pagination'
 import CourseBox from '../../components/CourseBox/CourseBox'
 import CommentBox from '../../components/commentBox/CommentBox'
@@ -50,7 +50,7 @@ export default function Courses() {
   return (
     <>
         <Header/>
-        {/*<Breadcrumb
+        <BreadCrumbUser
         links={[
           { id: 1, title: "خانه", to: "" },
           {
@@ -64,7 +64,7 @@ export default function Courses() {
             to: "course-info/js-expert",
           },
         ]}
-      />*/}
+      />
         
 
         <div className="courses-content">
