@@ -55,7 +55,7 @@ export default function Landing() {
               
           </div>
           <div className="landing-right">
-            <img src="/public/image/Group 20.png" alt="" />
+            <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663006/Group_20_xviuni.png" alt="" />
           </div>
     </section>
     </div>
