@@ -55,7 +55,7 @@ export default function Landing() {
               
           </div>
           <div className="landing-right">
-            <img src="/image/Group 20.png" alt="" />
+            <img src="/public/image/Group 20.png" alt="" />
           </div>
     </section>
     </div>
