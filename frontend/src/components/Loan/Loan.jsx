@@ -10,7 +10,7 @@ export default function Loan() {
   return (
     <div className='loan-container'>
         <div className="loan">
-            <div className="loan-title">از اکادمی<img src='/image/logo/Logo.png'/>قسطی خرید کن</div>
+            <div className="loan-title">از اکادمی<img src='https://res.cloudinary.com/dpzsifsol/image/upload/v1764662977/Logo_ywk2gs.png'/>قسطی خرید کن</div>
             <p>برای سهولت در ثبت‌نام و همراهی بیشتر با شما، امکان پرداخت اقساطی فراهم شده است.همچنین، سرویس‌های معتبر 
             دیجی‌پی و ازکی‌وام نیز در دسترس شما هستند تا فرآیند پرداخت اقساطی با خیالی آسوده انجام شود.</p>
             <div className="support-loan">

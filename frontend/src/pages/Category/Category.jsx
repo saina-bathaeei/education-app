@@ -139,10 +139,10 @@ useEffect(() => {
           <div className="courses-top-bar">
             <div className="courses-top-bar__right">
               <div className="courses-top-bar__row-btn courses-top-bar__icon--active">
-                <img src="/images/icons/material-symbols--window-outline.svg" alt="" />
+                <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663032/material-symbols--window-outline_ywo1vw.svg" alt="" />
               </div>
               <div className="courses-top-bar__column-btn">
-                <img src="/images/icons/dashicons--text.svg" alt="" />
+                <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663025/dashicons--text_wlghvd.svg" alt="" />
               </div>
 
               <div className="courses-top-bar__selection">
@@ -184,7 +184,7 @@ useEffect(() => {
                   onChange={(e) => searchForCourse(e)}
                   
                 />
-                <img src="/images/icons/material-symbols--search (5).svg" alt="" onClick={() => onSearch()}/>
+                <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663031/material-symbols--search_5_pr5ki5.svg" alt="" onClick={() => onSearch()}/>
               </form>
             </div>
           </div>

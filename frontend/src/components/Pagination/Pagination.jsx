@@ -39,7 +39,7 @@ export default function Pagination({ onChange,courses,onClick }) {
       <ul className="courses__pagination-list">
         <li className="courses__pagination-item">
           <a href="#" className="courses__pagination-link">
-            <img src="/images/icons/lucide--move-right.svg" alt="" />
+            <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663030/lucide--move-right_mrexfd.svg" alt="" />
           </a>
         </li>
         {
@@ -53,7 +53,7 @@ export default function Pagination({ onChange,courses,onClick }) {
         }
         <li className="courses__pagination-item">
           <a href="#" className="courses__pagination-link">
-            <img src="/images/icons/lucide--move-left (1).svg" alt="" />
+            <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663027/lucide--move-left_1_ljzwtz.svg" alt="" />
           </a>
         </li>
       </ul>

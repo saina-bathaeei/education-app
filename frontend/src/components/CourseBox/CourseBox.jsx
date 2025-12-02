@@ -7,13 +7,16 @@ import "./CourseBox.css";
 export default function CourseBox(props) {
 
 
+  console.log(props.shortName ,props.cover , "0bb71c7d624421a2442f6e32a30bb0b8d08a8110c3d1b14b6b969eeb4c03a2ac")
+
+
   return (
     <Link to={`/course-info/${props.shortName}`}>
       <div className="col-4">
         <div className="course-box">
           <a href="#">
             <img
-              src={`/image/courses/${props.cover}`}
+              src={`https://res.cloudinary.com/dpzsifsol/image/upload/v1764662994/${props.cover}`}
               alt="Course img"
               className="course-box__img"
             />
@@ -44,17 +47,17 @@ export default function CourseBox(props) {
 
           <div className="course-box__footer">
             <div className="course-box-footer-box">
-              <img src="/image/svgs/Compare Heights (1).png" alt="" />
+              <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764662988/Compare_Heights_1_iptmzj.png" alt="" />
               <p>{props.registers} نفر </p>  
             </div>
 
             <div className="course-box-footer-box">
-              <img src="/image/svgs/Compare Heights (3).png" alt="" />
+              <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764662991/Compare_Heights_3_eb0kip.png" alt="" />
               <p>{props.courseAverageScore} امتیاز از 5</p> 
             </div>
 
             <div className="course-box-footer-box">
-            <img src="/image/svgs/Compare Heights (4).png" alt="" />
+            <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663001/Compare_Heights_4_zhpzaw.png" alt="" />
             <p>9</p>  
             </div>
           </div>

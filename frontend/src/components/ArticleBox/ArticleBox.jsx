@@ -9,7 +9,7 @@ export default function ArticleBox({ title, desc, cover }) {
         <div className="article-card__header">
           <a href="#" className="article-card__link-img">
             <img
-              src={`/${cover}`}
+              src={cover}
               className="article-card__img"
               alt="Article Cover"
             />

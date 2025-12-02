@@ -18,7 +18,6 @@ export default function BotcampBox(props) {
         توضیحات توضیحات توضیحات 
         </p>
         <div className="degree-bot-camp">
-            <img src="" alt="" />
             <span>بعد از اتمام دوره مدرک خود را تحویل میگیرید</span>
         </div>
         <div className="teacher-people-bot">

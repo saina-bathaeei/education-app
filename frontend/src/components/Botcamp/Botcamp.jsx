@@ -5,10 +5,10 @@ import './Botcamp.css'
 export default function Botcamp() {
 
   const [bootCampInfo,setBootCampInfo] = useState([
-    {name:'توسعه فرانت اند با ری اکت',info: '', img1: '/image/bootcamp1.webp',img2:'/image/svgs/structure.png',people:'',teacher:''},
-    {name:'آموزش HTML',info: '', img1: '/image/bootcamp4.jpg',img2:'/image/svgs/html.png',people:'',teacher:''},
-    {name:'پایتون برای تمام سنین',info: '', img1: '/image/bootcamp2.jpg',img2:'/image/svgs/python.png',people:'',teacher:''},
-    {name:'توسعه هوش مصنوعی',info: '', img1: '/image/bootcamp3.jpg',img2:'/image/svgs/ai.png',people:'',teacher:''},
+    {name:'توسعه فرانت اند با ری اکت',info: '', img1: 'https://res.cloudinary.com/dpzsifsol/image/upload/v1764662982/bootcamp1_cj8fok.webp',img2:'https://res.cloudinary.com/dpzsifsol/image/upload/v1764663030/structure_p9j0np.png',people:'',teacher:''},
+    {name:'آموزش HTML',info: '', img1: 'https://res.cloudinary.com/dpzsifsol/image/upload/v1764662999/bootcamp4_ycbni2.jpg',img2:'https://res.cloudinary.com/dpzsifsol/image/upload/v1764663017/html_hjisqr.png',people:'',teacher:''},
+    {name:'پایتون برای تمام سنین',info: '', img1: 'https://res.cloudinary.com/dpzsifsol/image/upload/v1764663020/bootcamp2_i7hcvy.jpg',img2:'https://res.cloudinary.com/dpzsifsol/image/upload/v1764663022/python_dwkmki.png',people:'',teacher:''},
+    {name:'توسعه هوش مصنوعی',info: '', img1: 'https://res.cloudinary.com/dpzsifsol/image/upload/v1764663031/bootcamp3_kubqiz.jpg',img2:'https://res.cloudinary.com/dpzsifsol/image/upload/v1764662986/ai_xjr7dl.png',people:'',teacher:''},
   ])
 
   return (

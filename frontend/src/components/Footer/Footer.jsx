@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="about-us-footer">
-        <img src="/public/image/logo/Logo.png" alt="" />
+        <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764662977/Logo_ywk2gs.png" alt="" />
         <p>وقتی تازه شروع به یادگیری برنامه نویسی کردم. یکی از مشکلاتی که در فرآیند یادگیری داشتم، کمبود آموزش های خوب با پشتیبانی قابل قبول بود که باعث شد اون موقع تصمیم بگیرم اگر روزی توانایی مالی و فنی قابل قبولی داشتم یک وب سایت برای حل این مشکل راه اندازی کنم!</p>
       </div>
       <div className="links-footer">
@@ -90,7 +90,7 @@ export default function Footer() {
 
 
       <div className="img-footer">
-        <img src="/agucation/249e6b727205861e4c367173d95007e6.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764662941/249e6b727205861e4c367173d95007e6_izhwsd.jpg" alt="" />
       </div>
 
               

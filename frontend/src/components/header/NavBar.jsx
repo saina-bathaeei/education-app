@@ -71,7 +71,7 @@ export default function NavBar() {
           </div>
         </div>
         <div className="nav-bar-right">
-            <div className="logo"><img src="/image/logo/Logo.png" alt="" /></div>
+            <div className="logo"><img src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764662977/Logo_ywk2gs.png" alt="" /></div>
             <ul>
               <Link className='a-drop' to={'/'}>صفحه اصلی</Link>
               {

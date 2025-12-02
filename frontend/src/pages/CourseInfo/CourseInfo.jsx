@@ -161,7 +161,7 @@ export default function CourseInfo() {
               
                <video
                 src=""
-                poster={`/image/courses/${courseInfos.cover}`}
+                poster={`https://res.cloudinary.com/dpzsifsol/image/upload/v1764662961/${courseInfos.cover}`}
                 className="course-info__video"
                 controls
               ></video>
@@ -241,7 +241,7 @@ export default function CourseInfo() {
                       آموزش 20 کتابخانه جاوا اسکریپت مخصوص بازار کار
                     </span>
                     <img
-                      src="/image/info/1.gif"
+                      src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663048/1_yjokyg.gif"
                       alt="course info image"
                       className="introduction__img img-fluid"
                     />
@@ -265,7 +265,7 @@ export default function CourseInfo() {
                       درآمد)
                     </span>
                     <img
-                      src="/image/info/2.jpg"
+                      src="https://res.cloudinary.com/dpzsifsol/image/upload/v1764663037/2_yjc20c.jpg"
                       alt="course info image"
                       className="introduction__img img-fluid"
                     />
@@ -394,7 +394,7 @@ export default function CourseInfo() {
                   <div className="techer-details__header">
                     <div className="techer-details__header-right">
                       <div
-                        style={{backgroundImage: "url(/teacher.avif)"}}
+                        style={{backgroundImage: "url(https://res.cloudinary.com/dpzsifsol/image/upload/v1764663052/teacher_xza77p.avif)"}}
                         className="techer-details__header-img"
                       ></div>
                       <div className="techer-details__header-titles">
