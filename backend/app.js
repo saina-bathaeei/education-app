@@ -57,5 +57,7 @@ app.use((req, res) => {
   res.status(404).json({ message: "404 OOPS! PATH NOT FOUND" });
 });
 app.use(errorHandler);
+//res.status(200).json({ message: "it is finally working!" });
+
 
 module.exports = app;
