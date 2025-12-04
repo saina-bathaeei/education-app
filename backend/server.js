@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const { default: mongoose } = require('mongoose');
-const app = require('./app');
+const app = require('./api/app');
 
 //* Load env
 dotenv.config();

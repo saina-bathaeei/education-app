@@ -1,24 +1,24 @@
 const path = require("path");
 const express = require("express");
-const { setHeaders } = require("./middlewares/headers");
-const { errorHandler } = require("./middlewares/errors");
+const { setHeaders } = require("../middlewares/headers");
+const { errorHandler } = require("../middlewares/errors");
 
 //*routes import
-const usersRoutes = require("./routes/v1/user");
-const articlesRoutes = require("./routes/v1/article");
-const authRoutes = require("./routes/v1/auth");
-const courseRoutes = require("./routes/v1/course");
-const menuRoutes = require("./routes/v1/menu");
-const categoryRoutes = require("./routes/v1/category");
-const commentsRoutes = require("./routes/v1/comment");
-const newslettersRoutes = require("./routes/v1/newsletter");
-const contactRoutes = require("./routes/v1/contact");
-const searchRoutes = require("./routes/v1/search");
-const notificationRoutes = require("./routes/v1/notification");
-const infosRoutes = require("./routes/v1/infos");
-const offsRoutes = require("./routes/v1/off");
-const ordersRoutes = require("./routes/v1/order");
-const ticketsRoutes = require("./routes/v1/ticket");
+const usersRoutes = require("../routes/v1/user");
+const articlesRoutes = require("../routes/v1/article");
+const authRoutes = require("../routes/v1/auth");
+const courseRoutes = require("../routes/v1/course");
+const menuRoutes = require("../routes/v1/menu");
+const categoryRoutes = require("../routes/v1/category");
+const commentsRoutes = require("../routes/v1/comment");
+const newslettersRoutes = require("../routes/v1/newsletter");
+const contactRoutes = require("../routes/v1/contact");
+const searchRoutes = require("../routes/v1/search");
+const notificationRoutes = require("../routes/v1/notification");
+const infosRoutes = require("../routes/v1/infos");
+const offsRoutes = require("../routes/v1/off");
+const ordersRoutes = require("../routes/v1/order");
+const ticketsRoutes = require("../routes/v1/ticket");
 
 const app = express();
 
